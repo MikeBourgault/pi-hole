@@ -15,6 +15,7 @@ def test_key_val_replacement_works(host):
     expected_stdout = 'KEY_ONE=value3\nKEY_TWO=value2\nKEY_FOUR=value4\nKEY_FIVE_NO_VALUE\n'
     assert expected_stdout == output.stdout
 
+
 def test_key_val_removal_works(host):
     ''' Confirms addOrEditKeyValPair provides the expected output '''
     host.run('''
