@@ -303,9 +303,9 @@ setHeader();
   <div id="bpAbout">
     <div class="aboutPH">
       <div class="aboutImg"></div>
-      <p>Open Source Ad Blocker
+      <!-- <p>Open Source Ad Blocker
         <small>Designed for Raspberry Pi</small>
-      </p>
+      </p> -->
     </div>
     <div class="aboutLink">
       <a class="linkPH" href="https://docs.pi-hole.net/"><?php //About PH ?></a>
@@ -313,9 +313,9 @@ setHeader();
     </div>
   </div>
 
-  <div id="bpAlt">
+  <!-- <div id="bpAlt">
     <label class="altBtn" for="bpAboutToggle"><?php //Why am I here? ?></label>
-  </div>
+  </div> -->
 </header>
 
 <main>
